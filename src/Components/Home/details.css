@@ -1,0 +1,50 @@
+.movieDetails_wraper {
+  background-color: black;
+}
+.movieDetails {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.movieDetails_poster {
+  position: relative;
+}
+.movieDetails_poster > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.movieDetails_info {
+  position: absolute;
+  bottom: 0%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.425);
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+.favourite_btn {
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+
+.movieDetails_bottom {
+  margin-top: 1rem;
+  color: white;
+  padding: 0rem 5rem;
+}
+
+.movieDetails_bottom > h3 {
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.movieDetails_full > p > span {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}

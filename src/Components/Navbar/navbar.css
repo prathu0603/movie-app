@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap");
+
+.navbar {
+  width: 100%;
+  height: 3.8rem;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 50;
+  box-shadow: 0px 5px 8px -2px rgb(63 63 63 / 83%);
+}
+
+.navbar_logo {
+  cursor: pointer;
+  flex: 1;
+  color: #127375;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.navbar_logo > img {
+  height: 3rem;
+  width: 3.1rem;
+}
+.navbar_links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0px;
+}
+.navbar_links > li {
+  padding-left: 1.5rem;
+}
+.navbar_links > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #f4f4f4;
+}
+
+@media (max-width: 500px) {
+  .navbar_logo {
+    display: none;
+  }
+  .navbar {
+    padding: 0px 0px 0px 1rem;
+  }
+  .navbar ul {
+    padding-left: 0rem;
+  }
+  .navbar_links {
+    justify-content: space-evenly;
+  }
+}
